@@ -1,0 +1,41 @@
+.userList {
+    margin: 20px;
+  }
+  
+  .users {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .user-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .user-item h3 {
+    margin: 0;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .user-item img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .user-item .user-name {
+    padding: 10px;
+    text-align: center;
+  }
+  
